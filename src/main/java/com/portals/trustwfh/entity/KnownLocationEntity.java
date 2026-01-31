@@ -1,4 +1,4 @@
-package com.portals.trustwfh.repository;
+package com.portals.trustwfh.entity;
 
 import jakarta.persistence.*;
 
@@ -19,9 +19,7 @@ public class KnownLocationEntity {
 
     private String userId;
 
-    /**
-     * Could be country, city, CIDR, officeId, etc.
-     */
+
     private String locationKey;
 
     private Instant firstSeen;
